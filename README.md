@@ -10,7 +10,7 @@
 
 ## Overview
 
-![Design preview](./public/design/desktop-preview.jpg)
+![Design preview](./assets/img/desing.png)
 
 ### Built With
 
