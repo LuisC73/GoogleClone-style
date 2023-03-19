@@ -7,21 +7,41 @@
     <title>Google</title>
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/mobile.css"
+      media="screen and (max-width:768px)"
+    />
   </head>
   <body>
     <header class="header">
       <nav class="navbar">
         <ul class="navbar__ul">
-          <li class="navbar__li"><a href="#" class="navbar__a">Gmail</a></li>
-          <li class="navbar__li"><a href="#" class="navbar__a">Imágenes</a></li>
+          <li class="navbar__li">
+            <a
+              href="https://mail.google.com/mail/?authuser=0&ogbl"
+              class="navbar__a"
+              >Gmail</a
+            >
+          </li>
+          <li class="navbar__li">
+            <a
+              href="https://www.google.com.co/imghp?hl=es-419&authuser=0&ogbl"
+              class="navbar__a"
+              >Imágenes</a
+            >
+          </li>
           <li class="navbar__li navbar__li--icon">
-            <a href="#" class="navbar__a"
+            <a
+              href="https://about.google/intl/es-419/products/"
+              class="navbar__a navbar__a--icon"
               ><img
                 src="./assets/img/menu-icon.svg"
                 alt="Menu Icono"
                 class="navbar__icon"
-                title="Google Apps"
-            /></a>
+              />
+              <span class="navbar__float">Google Apps</span>
+            </a>
           </li>
           <li class="navbar__li">
             <a href="#" class="navbar__a"
@@ -54,10 +74,18 @@
           <input type="text" class="contentInput__input" />
           <div class="contentInput__icons">
             <a href="#" class="contentInput__a">
-              <img src="./assets/img/microphone.svg" alt="Microphone" />
+              <img
+                src="./assets/img/microphone.svg"
+                alt="Microphone"
+                class="contentInput__img"
+              />
+              <span class="contentInput__float">Búsqueda por voz</span>
             </a>
             <a href="#" class="contentInput__a">
               <img src="./assets/img/camera.svg" alt="Microphone" />
+              <span class="contentInput__float contentInput__float--move"
+                >Búsqueda por imagen</span
+              >
             </a>
           </div>
         </div>
@@ -72,22 +100,46 @@
       <section class="footer__section">
         <ul class="footer__ul">
           <li class="footer__li">
-            <a href="#" class="footer__a">Sobre Google</a>
+            <a href="https://about.google/?fg=1" class="footer__a"
+              >Sobre Google</a
+            >
           </li>
           <li class="footer__li">
-            <a href="#" class="footer__a">Publicidad</a>
+            <a
+              href="https://ads.google.com/intl/es-419_co/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&fg=1"
+              class="footer__a"
+              >Publicidad</a
+            >
           </li>
-          <li class="footer__li"><a href="#" class="footer__a">Negocios</a></li>
           <li class="footer__li">
-            <a href="#" class="footer__a">Cómo funciona la Búsqueda</a>
+            <a
+              href="https://smallbusiness.withgoogle.com/intl/es-419_co/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CO#!/"
+              class="footer__a"
+              >Negocios</a
+            >
+          </li>
+          <li class="footer__li">
+            <a
+              href="https://www.google.com/search/howsearchworks/?fg=1"
+              class="footer__a"
+              >Cómo funciona la Búsqueda</a
+            >
           </li>
         </ul>
         <ul class="footer__ul">
           <li class="footer__li">
-            <a href="#" class="footer__a">Privacidad</a>
+            <a
+              href="https://policies.google.com/privacy?hl=es-419&fg=1"
+              class="footer__a"
+              >Privacidad</a
+            >
           </li>
           <li class="footer__li">
-            <a href="#" class="footer__a">Condiciones</a>
+            <a
+              href="https://policies.google.com/terms?hl=es-419&fg=1"
+              class="footer__a"
+              >Condiciones</a
+            >
           </li>
           <li class="footer__li">
             <a href="#" class="footer__a">Preferencias</a>
